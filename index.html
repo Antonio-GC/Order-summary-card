@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@508&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@508&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <img
+            src="/images/illustration-hero.svg"
+            alt="chico escuchando musica"
+            class="card__imagen"
+          />
+        </div>
+        <div class="card__main">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__text">
+            You can now listen to millions of songs, <br />
+            audiobooks, and podcasts on any device <br />
+            anywhere you like!
+          </p>
 
-<link rel="stylesheet" href="/style.css">
-  <title>Frontend Mentor | Order summary card</title>
+          <div class="card__plan">
+            <img src="/images/icon-music.svg" alt="" class="plan__imagen"/>
+            <p class="plan__text">
+              Annual Plan <br />
+              $59.99/year
+            </p>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+            <a href="" class="plan__link"> Change</a>
+          </div>
 
-  <div class="container">
-    <div class="card">
-<div class="card--header">
-<img src="/images/illustration-hero.svg" alt="chico escuchando musica">
-</div>
-<div class="card--main">
-   <h1> Order Summary</h1>
-<br>
-  <p>You can now listen to millions of songs, <br> audiobooks, and podcasts on any 
-  device <br> anywhere you like! </p>
- <br>
+         
+            <button type="submit" class="card__action">Proceed to Payment</button>
 
- <div class="card--plan">
-  <div class="card--plan img">
-  <img src="/images/icon-music.svg" alt="">
-  <p>Annual Plan <br> $59.99/year</p>
-  </div>
-  
- <a href=""> Change</a>
-</div>
-
-<div class="card--footer">
- <button type="submit"><a href="">Proceed to Payment</a></button>
-
-  
- <a href="">Cancel Order</a> 
-  </div>
-</div>
- 
+            <a href="" class="plan__link--gray">Cancel Order</a>
+          
+        </div>
+      </div>
     </div>
-  </div>
-
-</body>
+  </body>
 </html>
